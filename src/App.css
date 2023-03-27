@@ -1,0 +1,136 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+  width: 88vw;
+
+}
+
+.btns button {
+  margin: 15px;
+  padding: 8px;
+  background-color: black;
+  color: white;
+  border: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition-duration: .4s;
+}
+
+.btns button:hover{
+  background-color: white;
+  color: black;
+}
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.product {
+  border: 11px solid #E0E0E0;
+  margin: 10px;
+  margin-left: 70px;
+}
+
+.brand {
+  text-align: center;
+  color: black;
+  background-color: #E0E0E0;
+  padding: 5px;
+}
+.product img {
+
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.pagination{
+  padding: 10px;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination span{
+  padding: 15px 20px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.page__selected{
+  background-color: #C8C8C8;
+}
+.disable_button{
+  opacity: 0;
+}
+
+
+/* Details */
+
+.details{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+/* .details h1{
+
+} */
+
+.details .product-review{
+  display: flex;
+  flex-direction: column;
+  min-width: 50vw;
+  /* border: 1px solid red; */
+ 
+}
+
+/* .details .product-review .thumbnail{
+  width: 100vw;
+  height: 50vh;
+} */
+
+.details .product-review .thumbnail img{
+  width: 100%;
+  height: 400px;
+}
+
+.details .title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.price{
+  display: flex;
+  justify-content: space-between;
+}
+
+.description{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* padding: 10px; */
+}
+
+.tag{
+  /* background-color: rgb(204, 204, 204); */
+  font-weight: 600;
+  /* font-size: 1.1rem; */
+  border-radius: 5px;
+  padding: 5px;
+}
